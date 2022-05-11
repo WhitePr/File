@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <object class="GtkApplicationWindow" id="MainWindow">
+    <child>
+      <object class="GtkScrolledWindow" id="srcwin">
+        <property name="propagate-natural-width">1</property>
+        <property name="propagate-natural-height">1</property>
+        <child>
+          <object class="GtkTreeView" id="FileList">
+            <property name="focusable">1</property>
+            <child internal-child="selection">
+              <object class="GtkTreeSelection"/>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child type="titlebar">
+      <object class="GtkHeaderBar" id="header">
+        <child type="start">
+          <object class="GtkBox">
+            <property name="spacing">5</property>
+            <child type="append">
+              <object class="GtkButton" id="previous">
+                <property name="icon-name">go-previous-symbolic</property>
+              </object>
+            </child>
+            <child type="append">
+              <object class="GtkButton" id="next">
+                <property name="icon-name">go-next-symbolic</property>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child type="end">
+          <object class="GtkBox">
+            <property name="spacing">5</property>
+            <child>
+              <object class="GtkButton" id="grid">
+                <property name="icon-name">view-grid-symbolic</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuButton" id="menu">
+                <property name="icon-name">open-menu-symbolic</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
+

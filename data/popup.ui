@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <menu id="file_menu">
+        <section>
+            <item>
+                <attribute name="label" translatable="yes">open</attribute>
+                <attribute name="action">file.open</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">open from app</attribute>
+                <attribute name="action">file.open_app</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">copy</attribute>
+                <attribute name="action">file.copy</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">cut</attribute>
+                <attribute name="action">file.cut</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">paste</attribute>
+                <attribute name="action">file.paste</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">delete</attribute>
+                <attribute name="action">file.delete</attribute>
+            </item>
+            <item>
+                <attribute name="label" translatable="yes">attribute</attribute>
+                <attribute name="action">file.attribute</attribute>
+            </item>
+        </section>
+    </menu>
+</interface>

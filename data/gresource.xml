@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/com.github.WhitePr.file/">
+    <file compressed="true" preprocess="xml-stripblanks">window.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">popup.ui</file>
+    <file compressed="true" preprocess="xml-stripblanks">image_window.ui</file>
+  </gresource>
+</gresources>

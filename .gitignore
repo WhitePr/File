@@ -1,0 +1,5 @@
+build
+bin
+src/gresource.c
+C++.code-workspace
+.clang-format
